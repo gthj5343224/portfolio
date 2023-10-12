@@ -1,0 +1,75 @@
+body{
+    position: relative;
+  min-height: 100vh;
+    text-align: center;
+    background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(18,13,89,0.9243346997001926) 100%, rgba(252,176,69,1) 100%);
+}
+
+header {
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(46,36,141,1) 0%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+section {
+
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(30,0,78,1) 0%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    float:left;
+   height: 200px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: black;
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: black;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    float:left;
+    text-align: center;
+}
+footer { 
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+    padding:50px;
+    background-color: black ;
+    text-align: center;
+    color:#fff;
+    padding: 50px;
+    clear:both;
+    border-radius: 10px;
+    border:15px;
+    border-color: white;
+}
+
