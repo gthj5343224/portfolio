@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ajout.js"></script>
+</head>
+<body>
+    <h2>Ajouter des éléments à la liste</h2>
+    <br>
+    <ul id="maListe">
+    </ul>
+    <label for="nouvelElement">Nouvel élément</label>
+    <input type="text" id="nouvelElement">
+   
+    <button onclick="ajouterElement()">Ajouter</button>
+</body>
+</html>
+
+function ajouterElement(){
+    var nouvelElement = document.getElementById('nouvelElement').value;
+    if(nouvelElement.trim() !==''){
+        var li=document.createElement('li');
+        li.appendChild(document.createTextNode(nouvelElement));
+        document.getElementById('maListe').appendChild(li);
+        document.getElementById('nouvelElement').value='';
+    }
+    else{
+        alert('Veuillez entrez un élément valide')
+    }
+}
+
