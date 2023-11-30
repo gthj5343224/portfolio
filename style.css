@@ -1,6 +1,9 @@
 body{
-	font-family: Verdana, Calibri, sans-serif; margin: 0px; padding: 0px; 
+	font-family: Verdana, Calibri, sans-serif;
+	margin:0px;
+        padding:0px;
 	background-image: url (Tokyo.gif);
+	background-size: cover;
 }
 
 nav > ul{
