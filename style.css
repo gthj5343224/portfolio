@@ -77,15 +77,8 @@ nav li:hover .submenu{
 
 .menu-html:hover{
 	border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
 
-background-color: RGBa (228, 77, 38, 0.15);
-
-}
-
-.menu-css:hover{
-
-border-top: 5px solid #0070bb;
-background-color: RGBa (000, 112, 192, 0.15);
 }
 
 .menu-js:hover{
